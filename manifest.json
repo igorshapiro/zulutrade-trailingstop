@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Zulu trailing stops",
+  "description": "This extensions monitors zulu positions page for trailing stops",
+  "version": "0.1",
+  "permissions": [
+    "https://www.zulutrade.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.zulutrade.com/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "zulu.ico"
+  }
+}
