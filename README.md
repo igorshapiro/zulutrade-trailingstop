@@ -6,7 +6,10 @@ This is a chrome plugin that monitors the open positions page and closes positio
 falling more then N pips from their maximum.
 
 # Installation
-- git checkout https://github.com/igorshapiro/zulutrade-trailingstop.git zulutrailingstop
+- In your shell:
+```zsh
+git checkout https://github.com/igorshapiro/zulutrade-trailingstop.git zulutrailingstop
+```
 - In chrome extensions page click "Load unpacked extension..."
 - Select the folder you checked out the solution to
 - Go to zulutrade open positions page
